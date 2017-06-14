@@ -6,17 +6,58 @@
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <script type="text/javascript" src="bower_components/angular/angular.js"></script>
     <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+    <link rel='stylesheet' type='text/css' href="C:\Users\louis\Documents\project1\bootstrap-3.3.7-dist\css\bootstrap.min.css">
 </head>
 <link rel ="stylesheet" type="text/css" href="C:\Users\louis\Documents\project1\angular-todo\style1.css"/>
 <body>
     <h1>Project 1 - band website</h1>
-    <nav>
-			<a id="navbar">BAND SITE</a>
-			<a href="#">Home</a>
-			<a href="#">Our Music</a>
-			<a href="#">Book Us</a>
-			<a href="#">Shop</a>
-	</nav>
+
+<nav class="navbar navbar-default navbar-fixed-top">		
+
+		<div class='container'>
+		    <div class="nav navbar-header">
+		    	<a class="navbar-brand" href="#"></a>
+		    	<button type="button" class="navbar-toggle collasped" 
+		    		data-toggle="collapse" 
+		    		data-target="#collapsinglist">
+		    		  <span class="icon-bar"></span>
+   			          <span class="icon-bar"></span>
+    			      <span class="icon-bar"></span>
+			    </button>
+		    </div>	
+		    	 <ul id="collapsingList" class="nav navbar-nav collapse navbar-collapse ">
+				 <li><a href="#">Home</a></li>
+			     <li><a href="#">Our music</a></li>
+			     <li><a href="#">Book us</a></li>
+			     <li><a href="#">Shop</a></li>
+				</ul>
+			</div>
+</nav>
+
+<div class='container'>
+	<div class='row'> 
+		<div class='col-md-3'>
+			<h1>Album Cover</h1>
+			<p>			</p>
+			<a href="#" class="btn btn-success">SHOP</a>
+		</div>
+
+		<div class='col-md-3'>
+			<h1>Photo Band Member</h1>
+			<p>			</p>
+		</div>
+
+		<div class='col-md-3'>
+			<h1>Album cover</h1>
+			<p>			</p>
+			<a href="#" class="btn btn-danger">SHOP</a>
+
+		</div>
+		<div class='col-md-3'>
+			<h1>Band Member</h1>
+			<p>			</p>
+		</div>
+	</div>
 
     <div id="footer" class="box"><h2>Connect with us... </h2>
     
