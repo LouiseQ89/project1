@@ -26,4 +26,4 @@ This website will allow users to listen to music, view tour dates and complete a
     
 - HTML
 - CSS
--JavaScript
+- JavaScript
