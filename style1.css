@@ -31,6 +31,11 @@ h4{
   text-align: left;
 }
 
+.scaled:hover{
+        transform: scale(1.25);
+        transition: 10s, ease-in-out;
+}
+
 /*Styling for form (Page3) */
  #container {
     padding-top: 30px;
@@ -94,7 +99,6 @@ h2{
     float: left;
 }
 /*end of styling for form (Page3)*/
-
 
 
 
